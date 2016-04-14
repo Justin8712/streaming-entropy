@@ -12,7 +12,7 @@
 #include "util.h"
 
 #define INVALID_TOKEN INT_MIN
-#define M_E 2.71828183
+//#define M_E 2.71828183
 #define MAX_WAIT 90000000
 
 static int prim_cmp(void* p, void* q)

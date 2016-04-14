@@ -35,4 +35,4 @@ extern void Freq_Destroy(freq_type *);
 extern void Freq_Update(freq_type *, int);
 extern int Freq_Size(freq_type *);
 extern unsigned int * Freq_Output(freq_type *,int);
-extern void SaveMax(freq_type* freq, unsigned int*, int*);
+extern void SaveMax(freq_type* freq, int*, int*);

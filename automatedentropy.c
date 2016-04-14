@@ -22,7 +22,7 @@
 
 #define INVALID_TOKEN INT_MIN
 //should be defined in "math.h"
-#define M_E 2.71828183
+//#define M_E 2.71828183
 #define MAX_WAIT 900000000
 #define MB 1048576 
 #define L_MAX 6

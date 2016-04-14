@@ -27,7 +27,7 @@
 
 #define INVALID_TOKEN INT_MIN
 //this constant should be defined in math.h
-#define M_E 2.71828183
+//#define M_E 2.71828183
 #define MAX_WAIT 90000000
 
 static int b_cmp(c_a* p, c_a* q);

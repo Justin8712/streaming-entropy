@@ -92,7 +92,7 @@ unsigned int * Freq_Output(freq_type * freq, int thresh)
 
 //saves count of most-frequent token retained by Misra-Gries alg
 //in max_count and the most-frequent token in max_token
-void SaveMax(freq_type* freq, unsigned int* max_token, int* max_count)
+void SaveMax(freq_type* freq, int* max_token, int* max_count)
 {
   GROUP *g;
   int count=0;

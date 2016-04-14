@@ -420,6 +420,11 @@ void CheckArguments(int argc, char **argv) {
   {
 	//determine filesize:
 	FILE* the_file = fopen(filename, "r");
+    if(the_file == NULL)
+    {
+        fprintf(stderr, "File pointer is null\n.");
+        exit(1);
+    }
 	fseek(the_file, 0, SEEK_END);
 	length = ftell(the_file);
 	fclose(the_file);
